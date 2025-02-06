@@ -1,87 +1,87 @@
 1. Basic Java Syntax & Output (Start Here)
-Print "Hello, World!" to the console.
-Print your name, age, and favorite color.
-Swap two numbers without using a third variable.
+- Print "Hello, World!" to the console.
+- Print your name, age, and favorite color.
+- Swap two numbers without using a third variable.
 2. Data Types & Variables
-Declare and initialize variables of all primitive types in Java.
-Take user input for their name and age, then print a greeting message.
-Convert an integer to a double and vice versa.
-Check if a number is positive, negative, or zero.
+- Declare and initialize variables of all primitive types in Java.
+- Take user input for their name and age, then print a greeting message.
+- Convert an integer to a double and vice versa.
+- Check if a number is positive, negative, or zero.
 3. Operators & Expressions
-Perform basic arithmetic operations (+, -, *, /, %).
-Find the area of a circle given the radius.
-Swap two numbers using arithmetic operations instead of a temporary variable.
-Calculate the power of a number without using Math.pow().
+- Perform basic arithmetic operations (+, -, *, /, %).
+- Find the area of a circle given the radius.
+- Swap two numbers using arithmetic operations instead of a temporary variable.
+- Calculate the power of a number without using Math.pow().
 4. Control Flow (if-else, switch)
-Check if a number is even or odd.
-Find the largest of three numbers.
-Check if a given year is a leap year.
-Take a grade (A, B, C, etc.) as input and print a corresponding message using a switch statement.
+- Check if a number is even or odd.
+- Find the largest of three numbers.
+- Check if a given year is a leap year.
+- Take a grade (A, B, C, etc.) as input and print a corresponding message using a switch statement.
 5. Loops (For, While, Do-While)
-Print numbers from 1 to 100 using a loop.
-Print the multiplication table of a given number.
-Calculate the sum of all numbers from 1 to N.
-Find the factorial of a number.
-Print the Fibonacci series up to N terms.
-Reverse a number (e.g., input 123, output 321).
-Check if a number is prime.
-Print all prime numbers between 1 and 100.
-Find the sum of digits of a number.
-Print a right-angled triangle pattern using *.
+- Print numbers from 1 to 100 using a loop.
+- Print the multiplication table of a given number.
+- Calculate the sum of all numbers from 1 to N.
+- Find the factorial of a number.
+- Print the Fibonacci series up to N terms.
+- Reverse a number (e.g., input 123, output 321).
+- Check if a number is prime.
+- Print all prime numbers between 1 and 100.
+- Find the sum of digits of a number.
+- Print a right-angled triangle pattern using *.
 6. Arrays
-Declare and initialize an array of 5 integers, then print them.
-Find the maximum and minimum elements in an array.
-Calculate the sum and average of an array.
-Reverse an array.
-Count occurrences of a specific element in an array.
-Find the second largest number in an array.
-Remove duplicate elements from an array.
-Rotate an array to the left by one position.
-Merge two sorted arrays into one sorted array.
-Find the intersection of two arrays.
+- Declare and initialize an array of 5 integers, then print them.
+- Find the maximum and minimum elements in an array.
+- Calculate the sum and average of an array.
+- Reverse an array.
+- Count occurrences of a specific element in an array.
+- Find the second largest number in an array.
+- Remove duplicate elements from an array.
+- Rotate an array to the left by one position.
+- Merge two sorted arrays into one sorted array.
+- Find the intersection of two arrays.
 7. Strings
-Check if a string is a palindrome.
-Count vowels and consonants in a string.
-Reverse a string without using built-in functions.
-Count the occurrences of each character in a string.
-Check if two strings are anagrams of each other.
-Convert a string to uppercase and lowercase.
-Remove duplicate characters from a string.
-Replace all spaces in a string with -.
-Find the first non-repeating character in a string.
-Convert a given string to an integer (without using Integer.parseInt()).
+- Check if a string is a palindrome.
+- Count vowels and consonants in a string.
+- Reverse a string without using built-in functions.
+- Count the occurrences of each character in a string.
+- Check if two strings are anagrams of each other.
+- Convert a string to uppercase and lowercase.
+- Remove duplicate characters from a string.
+- Replace all spaces in a string with -.
+- Find the first non-repeating character in a string.
+- Convert a given string to an integer (without using Integer.parseInt()).
 8. Functions & Methods
-Write a function to check if a number is even or odd.
-Write a function to find the greatest common divisor (GCD) of two numbers.
-Implement a function that takes an array and returns the sum of its elements.
-Write a recursive function to find the factorial of a number.
-Implement method overloading for a function that calculates the area of a circle, rectangle, and triangle.
+- Write a function to check if a number is even or odd.
+- Write a function to find the greatest common divisor (GCD) of two numbers.
+- Implement a function that takes an array and returns the sum of its elements.
+- Write a recursive function to find the factorial of a number.
+- Implement method overloading for a function that calculates the area of a circle, rectangle, and triangle.
 9. Object-Oriented Programming (OOP)
-Create a Car class with fields like model, make, and year, and methods to display details.
-Implement a BankAccount class with deposit and withdraw methods.
-Create a Rectangle class with a constructor and methods to calculate area and perimeter.
-Demonstrate method overriding with a base class Animal and subclasses Dog and Cat.
-Create an Employee class with subclasses Manager and Developer, each with their own method.
-Implement an interface Vehicle with methods start() and stop(), then implement it in Car and Bike classes.
-Create an abstract class Shape with an abstract method calculateArea() and implement it in Circle and Square subclasses.
-Demonstrate the use of super keyword in constructor chaining.
+- Create a Car class with fields like model, make, and year, and methods to display details.
+- Implement a BankAccount class with deposit and withdraw methods.
+- Create a Rectangle class with a constructor and methods to calculate area and perimeter.
+- Demonstrate method overriding with a base class Animal and subclasses Dog and Cat.
+- Create an Employee class with subclasses Manager and Developer, each with their own method.
+- Implement an interface Vehicle with methods start() and stop(), then implement it in Car and Bike classes.
+- Create an abstract class Shape with an abstract method calculateArea() and implement it in Circle and Square subclasses.
+- Demonstrate the use of super keyword in constructor chaining.
 10. Exception Handling
-Write a program that divides two numbers and catches ArithmeticException if division by zero occurs.
-Handle an ArrayIndexOutOfBoundsException when accessing an invalid index in an array.
-Demonstrate try, catch, finally by opening and closing a resource (like a Scanner).
-Create a custom exception InvalidAgeException and throw it when an age is less than 18.
-Use multiple catch blocks to handle NullPointerException and NumberFormatException.
-Demonstrate throw and throws keywords in Java.
-Implement a method that takes a file name as input and throws an exception if the file is not found.
+- Write a program that divides two numbers and catches ArithmeticException if division by zero occurs.
+- Handle an ArrayIndexOutOfBoundsException when accessing an invalid index in an array.
+- Demonstrate try, catch, finally by opening and closing a resource (like a Scanner).
+- Create a custom exception InvalidAgeException and throw it when an age is less than 18.
+- Use multiple catch blocks to handle NullPointerException and NumberFormatException.
+- Demonstrate throw and throws keywords in Java.
+- Implement a method that takes a file name as input and throws an exception if the file is not found.
 11. File Handling
-Write a program to read a file and print its contents.
-Write a program to write text to a file.
-Write a program that counts the number of words in a file.
-Copy the contents of one file to another file.
-Append new content to an existing file without overwriting.
+- Write a program to read a file and print its contents.
+- Write a program to write text to a file.
+- Write a program that counts the number of words in a file.
+- Copy the contents of one file to another file.
+- Append new content to an existing file without overwriting.
 12. Collections (ArrayList, HashMap, HashSet, etc.)
-Create an ArrayList of integers and add, remove, and iterate over elements.
-Create a HashMap to store student names as keys and their scores as values, then retrieve a score by name.
-Use a HashSet to store unique elements from an array.
-Sort a List of numbers in ascending and descending order.
-Implement a simple Queue using LinkedList and perform enqueue and dequeue operations.
+- Create an ArrayList of integers and add, remove, and iterate over elements.
+- Create a HashMap to store student names as keys and their scores as values, then retrieve a score by name.
+- Use a HashSet to store unique elements from an array.
+- Sort a List of numbers in ascending and descending order.
+- Implement a simple Queue using LinkedList and perform enqueue and dequeue operations.
