@@ -13,7 +13,7 @@ public class checknumber {
         String input = scan.nextLine();
         int number = Integer.parseInt(input);
         if(number == 0){
-            System.out.printf("%d is Zero\n", number);
+            System.out.printf("%d is Zero\n-987", number);
         }
         else{
             int sign = number / Math.abs(number);
@@ -24,5 +24,6 @@ public class checknumber {
                 System.out.printf("%d is Negative\n", number);
             }
         }
+        scan.close();
     }
 }
