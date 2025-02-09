@@ -28,5 +28,6 @@ public class LeapYear {
         }
         else leapYear = false;
         System.out.printf("%d %s a leap year\n", year, leapYear ? "is" : "is not");
+        scan.close();
     }
 }
