@@ -1,4 +1,6 @@
-/* Find the maximum and minimum elements in an array */
+/* Find the maximum and minimum elements in an array 
+ *  Find the second largest number in an array.
+*/
 
 package Problems;
 import java.util.Arrays;
@@ -14,7 +16,7 @@ public class MinMax {
         System.out.println("The Numbers Are: ");
         System.out.println(Arrays.toString(nums));
 
-        int min = nums[0], max = nums[0];
+        int min = nums[0], max = nums[0], nextMax=nums[0];
         for(int i = 1; i < nums.length; i++){
             if(nums[i] < min)
             {
@@ -24,7 +26,12 @@ public class MinMax {
             {
                 max = nums[i];
             }
+            if(nums[i] > nextMax && nums[i] < max)
+            {
+                nextMax = nums[i];
+            }
         }
         System.out.println("Min: " + min + " Max: " + max);
+        System.out.println("Then next largest number is " + nextMax);
     }
 }
