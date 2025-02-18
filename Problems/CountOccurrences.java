@@ -31,5 +31,6 @@ public class CountOccurrences{
             }
         }
         System.out.println(input + " was entered " + count + " times");        
+        scan.close();
     }
 }
