@@ -1,0 +1,76 @@
+Java Practice Problems – Intermediate to Advanced
+Student Gradebook System:
+Create a system that stores student names and their list of grades. It should compute GPA, allow grade updates, and list top students.
+
+Library Book Manager:
+Track books, their availability, borrower details, and due dates. Implement late fee calculation and a file-based storage system.
+
+Simple Banking System:
+Build a system with customers, account balances, deposits, withdrawals, and transfer features. Include custom exceptions for overdrafts.
+
+Task Scheduler:
+Create a scheduler that handles tasks with deadlines and priorities. Print the task list in order of urgency.
+
+CSV Reader and Analyzer:
+Read a CSV file containing user data. Parse it and allow filtering/searching based on fields (like age > 30).
+
+Text-Based Adventure Game:
+Create rooms, items, and commands like "go north", "take sword". Use OOP and file storage for saved game state.
+
+Math Quiz Generator:
+Generate quizzes with random math problems (using Random). Evaluate user input and give a score at the end.
+
+Company Employee Hierarchy:
+Model employees with inheritance. Managers can have subordinates. Implement promotions and salary adjustments.
+
+Restaurant Menu and Order System:
+Have a menu with food/drinks. Allow users to build orders and calculate totals. Include tax and tip calculation.
+
+Simple Password Manager:
+Store service names and passwords securely in a file. Use basic encryption (Caesar cipher or XOR).
+
+Prime Number Finder with Multithreading:
+Find all prime numbers in a large range using multiple threads. Compare the runtime with a single-threaded version.
+
+JSON Contact Book:
+Store contacts with name, phone, and email in a JSON file. Allow adding, removing, and editing contacts.
+
+Stock Portfolio Simulator:
+Simulate buying/selling stocks. Track quantities and calculate portfolio value over time with fluctuating prices.
+
+Command-Line Chat Log Parser:
+Given a text file chat log, analyze it to find most active users, message count, and word frequency.
+
+Battleship Game (Grid-Based):
+Console-based game where a user guesses locations of ships on a grid. Use 2D arrays and input validation.
+
+Poll Survey Collector:
+Users vote for their favorite item. Tally results and display percentages. Prevent double voting using user IDs.
+
+Simple Calendar with Events:
+Add, view, and delete events by date. Show upcoming events. Store everything in a file.
+
+Roman Numeral Converter:
+Convert integers to Roman numerals and back. Include input validation and unit tests.
+
+Text Statistics Tool:
+Read a file and report word count, sentence count, most frequent words, and average word length.
+
+Vehicle Rental System:
+Track available vehicles. Rent, return, and calculate rental fees. Include vehicle types with inheritance.
+
+Temperature Logger:
+Record daily temperatures. Allow averaging over time ranges, min/max detection, and graphing (basic console output).
+
+Memory Game (Match Pairs):
+Create a simple memory matching game in the console with hidden card values in a 2D grid.
+
+Shopping Cart with Discounts:
+Users add products to cart. Apply discounts for certain conditions (like 3-for-2 or 10% off).
+
+Expense Tracker:
+Log daily expenses with categories. Summarize totals by category and month. Save to and load from file.
+
+Expression Evaluator:
+Parse and compute simple math expressions from strings (like "3 + 4 * 2"). Respect operator precedence.
+
